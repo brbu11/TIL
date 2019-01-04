@@ -1,0 +1,5 @@
+﻿1>------ 빌드 시작: 프로젝트: ConsoleApplication1, 구성: Debug Win32 ------
+1>0104.cpp
+1>c:\users\student\source\repos\consoleapplication1\consoleapplication1\0104.cpp(8): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+1>"ConsoleApplication1.vcxproj" 프로젝트를 빌드했습니다. - 실패
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========

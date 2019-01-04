@@ -10,9 +10,6 @@ lotto_data = response.json()
 
 real_numbers = []
 
-# for key in lotto_data:
-#     if 'drwtNo' in key:
-#         real_numbers.append(lotto_data[key])
          
 for key, value in lotto_data.items():
     if 'drwtNo' in key :

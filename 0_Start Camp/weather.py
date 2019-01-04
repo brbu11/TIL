@@ -1,12 +1,12 @@
-# import requests
-# url = 'https://api.darksky.net/forecast/67a4709ee0b80f25d8ef923a6bba5e6e/37.5013697,127.0380784'
+ import requests
+ url = 'https://api.darksky.net/forecast/67a4709ee0b80f25d8ef923a6bba5e6e/37.5013697,127.0380784'
 
-# res = requests.get(url)
-# data = res.json()
+res = requests.get(url)
+ data = res.json()
 
-# print(data['currently']['summary'])
+ print(data['currently']['summary'])
 
-# {'key' : 'value'}
+{'key' : 'value'}
 
 from darksky import forecast
 multicampus = forecast('67a4709ee0b80f25d8ef923a6bba5e6e',37.5013697,127.0380784)
