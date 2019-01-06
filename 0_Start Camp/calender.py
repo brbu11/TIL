@@ -1,30 +1,43 @@
-end_day = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-
 for i in range(1,13):
-    print("{} 월\n".format(i))
-    print(" 일  월  화  수  목  금  토")
-    for j in range(1,6):
-        if j == 1:
-            for k in range(1,8):
-                print(" {}".format(k), end = "  ")
-        elif j == 2:
-            print("")
-            for k in range(8,15):
-                if k < 10:
-                    print("", end = " ")
-                print("{}".format(k), end = "  ")
-        elif j == 3:
-            print("")
-            for k in range(15,22):
-                print("{}".format(k), end= "  ")
-        elif j == 4:
-            print("")
-            for k in range(22,29):
-                print("{}".format(k), end= "  ") 
-        elif j == 5:
-            print("")
-            for k in range(29,end_day[i]+1):
-                print("{}".format(k), end= "  ")
-                
-        print("")
-    print("")
+	end_day = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+	week = {"일" : 0, "월" : 1, "화" : 2, "수" : 3, "목" : 4,
+		"금" : 5, "토" : 6}
+	print(" {} 월".format(i))
+	print("")
+	print("일   월   화   수   목   금   토")
+	count += end_day[i-1]
+	count_num = (week[first_day] + count%7)%7
+	print("     "*count_num, end = "")
+	for j in range(1,8 - count_num):
+		print("{}".format(j), end="    ")
+	print("")
+	for j in range(8 - count_num, 15 - count_num):
+		print("{}".format(j), end="   ")
+		if j < 10:
+			print("", end= " ")
+	print("")
+	for j in range(15 - count_num, 22 - count_num):
+		print("{}".format(j), end = "   ")
+		if j < 10 :
+			print("", end = " ")
+	print("")
+	if 29 - count_num <= end_day[i]:
+		for j in range( 22- count_num, 29 - count_num):
+			print("{}".format(j), end = "   ")
+		print("")
+		if end_day[i] - (29 -count_num) >= 7:
+			for j in range( 29- count_num, 36- count_num):
+				print("{}".format(j), end = "   ")
+			print("")
+			for j in range( 36 - count_num,  end_day[i] + 1):
+				print("{}".format(j), end = "   ")
+			print("")
+		else:
+			for j in range( 29- count_num, end_day[i] + 1):
+				print("{}".format(j), end = "   ")
+			print("")
+	else:
+		for j in range( 22- count_num, end_day[i] +1):
+			print("{}".format(j), end = "   ")
+	print("")
+	print("")
