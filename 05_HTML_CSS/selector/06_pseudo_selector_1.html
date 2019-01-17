@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* a에 마우스를 올리면
+        a:hover { 
+            /* color :gold; */
+            font-weight: bold;
+        
+        }
+        /* input에 포커스가 가면 */
+        input:focus {background : aquamarine;}
+    
+    
+    /* Link Pseudo Selector, User action pseudo selector */
+      
+        /* a 링크를 방문하지 않았을 때*/
+        a:link { color : orchid;}
+
+        /* a 링크를 방문 했을 때*/
+        a:visited {color: darkblue;}
+        /* a 요소를 클릭하고 있는 상태일 때 */
+        a:active { background: blue;}
+        
+        /* input 타입이 텍스트 패스워드인 요소들에 포커스가 갔을 때 */
+        input[type="text"]:focus,
+        input[type="password"]:focus { color : darkslateblue;}
+    
+    /* UI element state pseudo selector */
+        /*  인풋이 사용가능할때 바로뒤에 오는 형제스판 선택 */
+        input:enabled + span {
+            color: blue;
+        }
+
+         /*  인풋이 불가능할때 바로뒤에 오는 형제 스판 선택 */
+         input:disabled + span {
+            color: gray;
+            text-decoration: line-through;
+        }
+        /*  인풋이 checked 일때 바로뒤에 오는 형제 스판 선택 */
+        input:checked + span {
+            color : green;
+        }
+
+     /* Structural pseudo selector  */
+
+            /* p 태그(요소) 중에서 첫번째 자식을 선택 */
+             p:first-child {color : hotpink;} 
+
+            /* 마지막 자식일 P일때 그 P 태그(요소) 선택 */
+             p:last-child {background : tan;} 
+        
+        /* ol의s 자식 요소인 li 중에서 짝수, 홀수 선택 (중간에 다른요소 끼면 순서영향줌) */
+        ol > li:nth-child(2n) { color : rgba(131, 97, 5, 0.87);}
+        ol > li:nth-child(2n+1) { color : rgba(247, 107, 14, 0.623);}
+        /* ol의 자식중 첫째 li 마지막이 li라면 저거줌  */
+        ol > li:first-child {color : rebeccapurple;}
+        ol > li:last-child {color   :forestgreen;}
+
+        /* ol의 자식중 4번째가 li 라면 */
+        ol > li:nth-child(4) {color : blue;}
+        /* ul의 모든 자식중 뒤에서부터 홀수, 짝수인 애들 바꾸기 */
+        ul > :nth-last-child(2n+1) { color : greenyellow;}
+
+        ul > :nth-last-child(2n) { color : green;} 
+
+        /* p 요소의 부모요소의 자식요소중 첫번째 등장하는 p (이건 P끼리만 경쟁 훨씬나음) */
+        p:first-of-type {background  : rebeccapurple;}
+        p:last-of-type { background  : salmon;}
+
+        p:nth-of-type(2) { background : green;}
+
+        p:nth-last-of-type(2){ background : skyblue;}
+
+        p:first-child { background: black;}
+
+    /* Negation(부정) pseudo select */
+        input[type="password"]{ background:  gold;}
+
+    </style>
+</head>
+
+<body>
+
+    <p>이 P태그는 부모(Body)의 첫 째 자식입니다.</p>
+    <h1>Welcome to my homepage</h1>
+    <p>요 P태그는 부모(Body)의 첫 째 자식도 마지막 자식도 아닙니다.</p>
+
+    <div>
+        <p>이 P태그는 부모(div)의 첫 째 자식입니다.</p>
+        <p>요 P태그는 부모(div)의 첫 째 자식이 아니지만 마지막 자식맞당!!</p>
+
+    </div>
+
+    <div>
+      
+        <h2>This is Heading2</h2>
+
+        <p>첫 번째</p>
+        <p>두 번째</p>
+        <p>세 번째</p>
+        <p>네 번째</p>
+
+        <div>
+            <h3>This is Heading3</h3>
+
+            <p>첫 번째</p>
+            <p>두 번째</p>
+            <p>세 번째</p>
+            <p>네 번째</p>
+        
+        </div>
+
+    </div>
+
+
+
+
+
+    <div>
+        <ol>
+    
+            <li>Espresso</li>
+            <li>Americano</li>
+            <li>CafeLatte</li>
+            <li>CafeMoca</li>
+            <li>BanillaLatte</li>
+            <li>Tea</li>
+        </ol>
+
+        <ul>
+            <li>Espresso</li>
+            <li>Americano</li>
+            <li>CafeLatte</li>
+            <li>CafeMoca</li>
+            <li>BanillaLatte</li>
+            <li>Tea</li>
+
+        </ul>
+    </div>
+    <a href="#">Hover me</a>
+    <br><br>
+    <input type="text" placeholder="Focus me">
+
+    <div>
+        <input type="text" value="I'll be red when focused">
+        <input type="password" value="I'll be red when focused">
+
+    </div>
+
+    <form action="">
+        
+    <input type="radio" value="menu A" checked="checked">
+    <span>Medu A</span> <br>
+
+    <input type="radio" value="menu B" >
+    <span>Menu B</span> <br>
+
+    <input type="radio" value="Hungry" disabled>
+    <span>Stay Hungry</span> <br>
+
+    <input type="checkbox" value="taxi" checked="checked">
+    <span>Taxi</span> <br>
+    
+    <input type="checkbox" value="BM"> 
+    <span>Bus Metro</span> <br>    
+    
+    <input type="checkbox" value="Walk" disabled>
+    <span>Walking</span> <br>
+
+
+    </form>
+ 
+</body>
+</html>

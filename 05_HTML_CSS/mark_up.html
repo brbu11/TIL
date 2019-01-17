@@ -123,6 +123,50 @@
             </tr>
         </table>
         
+        <h3> Form </h3>
+        <p>주문서를 작성해 주세요</p>
+        <form action="/index.html">
+            <div>
+               이름 : <input type="text" name="name" autofocus>
+            </div>
+            <div>
+                나이 : <input type="date" name="date" >
+            </div>
+            <p><strong>1. 샌드위치 선택</strong></p>
+            <div>
+                <input type="radio" name="sandwich" id="classic" value="1">이탈리안 비엠티
+                <input type="radio" name="sandwich" id="classic" value="2">참치
+                <input type="radio" name="sandwich" id="classic" value="3">에그마요
+                <input type="radio" name="sandwich" id="premium" value="4">스테이크&치즈
+                <input type="radio" name="sandwich" id="premium" value="5">치킨베이컨랜치
+            </div>
+            <p><strong>2. 사이즈 선택</strong></p>
+            <div>
+                <input type="number" min="15" max="30" step="15" value="15">cm
+
+            </div>
+            <p><strong>3. 빵</strong></p>
+            <div>
+                <select name="bread" id="">
+                    <option value="위트">위트</option>
+                    <option value="화이트">화이트</option>
+                    <option value="하티">하티</option>
+                </select>
+            </div>
+            <p><strong>4. 소스</strong></p>
+            <div>
+                <input type="checkbox" name="option" id="">핫칠리
+                <input type="checkbox" name="option" id="">머스타드
+                <input type="checkbox" name="option" id="">스위트칠리
+            </div>
+            <input type="submit" value="Subway!!!!!!!!!!!!!!!!!!!!">
+
+        
+            <form action="/index.html">
+                <div>ID : <input type="text" name="name" autofocus></div>
+                <div>PWD : <input type="password" name="pwd"></div>
+                <div> <input type="submit" value="로그인"></div>
+            </form>
     </body>
 
 </html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>visibiliy_opacity</title>
+    <style>
+
+        .visible{visibility: visible;}
+        /* elem을 보이지않게 공간은 남는다 */
+        .hidden{visibility: hidden;}
+        .table, td {border: 1px solid blueviolet;}
+        /*  table에서만 사용한다. 행이나 열을 보이지 않게 한다 */
+        .collapse{
+             visibility: collapse;
+            /*visibility: hidden; */
+        }
+        div, img{
+            float: left;
+            width: 200px;
+            height: 200px;
+            margin: 30px;
+            background-color: darkblue;
+            color: white;
+            opacity: 0.1;
+            transition: opacity 0.1s;
+
+        }
+        div:hover, img:hover{
+            opacity: 10.0;
+        }
+    </style>
+</head>
+   
+<body>
+    <h1>visibility Opacity</h1>
+    <h2 class="visible">visibility: visible</h2>
+    <h2 class="hidden">visibility: hidden</h2>
+
+    <!-- 공간도 사라짐  -->
+    <h2 style="display:none">display: none</h2>
+
+    <table>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+
+        </tr>
+        <tr class="collapse">
+
+        <td>A</td>
+        <td>B</td>
+    </tr>
+
+    </table>
+
+    <div>Opacity: 0.5</div>
+    <img src="http://www.bloteracademy.net/wp-content/uploads/2015/11/%EB%B0%A9%EC%BF%A4_%EC%82%AC%EC%A7%8403.jpg" alt="">
+</body>
+</html>
