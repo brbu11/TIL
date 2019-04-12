@@ -2,19 +2,43 @@
 
 {% block body %}
 
-    <h1>{{ article.title }}</h1>
+    <h1>{{ posting.title }}</h1>
 
     <p>
-        {{ article.content }}
+        {{ posting.content }}
     </p>
     <hr>
-    <a href="/board/articles/">
+    <a href="{% url 'board_ad:posting_detail' %}">
         <button>List</button>
     </a>
-    <a href="/board/articles/{{ article.id }}/edit/">
+    <a href="/board/articles/{{ posting.id }}/edit/">
         <button>Edit</button>
     </a>
     <a href="/board/articles/{{ article.id }}/delete/">
         <button>Delete</button>
     </a>
+
+    <hr>
+
+    <form action="{% url 'board_ad:create_comment' posting_id %}" method="POST">
+        {% csrf_token %}
+        <label for="comment"></label>
+        <input type="text" name="comment" id="comment">
+        <button type="submit">댓글쓰기</button>
+    </form>
+
+
+    <section>
+    {% if comments %}
+    <ul>
+    {% for comment in comments %}
+        <li>{{ comment.content }}</li>
+        <a href="{% url 'board_ad:delete_comment' posting_id=posting.id comment_id=comment.id %}">
+        <button>Delete</button>
+        </a>
+    {% endfor %}
+
+    </ul>
+    {% endif %}
+    </section>
 {% endblock %}

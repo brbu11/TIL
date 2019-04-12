@@ -3,13 +3,15 @@
 
 {% block body %}
 
-    <h1>Article List</h1>
-    <a href="/board/articles/new"><button>New article</button></a>
+    <h1>Posting List</h1>
+    <a href="{% url '' %}"><button>New posting</button></a>
     <ul>
-        {% for article in articles %}
-
-            <a href="/board/articles/{{ article.id }}"> <li>{{ article.title }}</li> </a>
-
+    {% if postings %}
+        {% for posting in postings %}
+        <li>
+            <a href="{% url 'board_ad:posting_detail' posting.id %}"> {{ posting.title }} </a>
+        </li>
         {% endfor %}
     </ul>
+    {% endif %}
 {% endblock %}
