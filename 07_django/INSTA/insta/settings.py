@@ -39,8 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'mton',
     'posts',
-    'onetoone',
+    # 'onetoone',
     'onetomany',
+    'accounts',
+
 
 ]
 
