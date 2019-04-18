@@ -9,23 +9,23 @@ faker = Faker()
 class Client(models.Model):
     name = models.CharField(max_length=30)
 
-    # class Meta:
-    #     ordering = ('name',)
-    #
-    # @classmethod
-    # def dummy(cls, n):
-    #     for i in range(n):
-    #         cls.objects.create(name=faker.name())
+    class Meta:
+        ordering = ('name',)
+
+    @classmethod
+    def dummy(cls, n):
+        for i in range(n):
+            cls.objects.create(name=faker.name())
 
 
 class Hotel(models.Model):
     name = models.CharField(max_length=30)
-    clients = models.ManyToManyField(Client)
+    clients = models.ManyToManyField(Client, related_name='hotels')
 
-    # @classmethod
-    # def dummy(cls, n):
-    #     for i in range(n):
-    #         cls.objects.create(name=faker.company())
+    @classmethod
+    def dummy(cls, n):
+        for i in range(n):
+            cls.objects.create(name=faker.company())
 
 
 class Student(models.Model):
