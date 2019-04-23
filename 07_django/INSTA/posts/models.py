@@ -4,6 +4,7 @@ from imagekit.models import ProcessedImageField
 from imagekit.processors import ResizeToFill
 from faker import Faker
 from django.conf import settings
+
 # import os
 #
 # ENV = os.environ.get('ENVIRONMENT', 'development')
@@ -14,10 +15,18 @@ from django.conf import settings
 faker = Faker()
 
 
+class HashTag(models.Model):
+    content = models.CharField(max_length=20, unique=True)
+
+    def __str__(self):
+        return self.content
+
+
 class Post(TimeStampedModel):
     content = models.CharField(max_length=140)
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_posts')
+    tags = models.ManyToManyField(HashTag, blank=True, related_name='posts')
 
     @classmethod
     def dummy(cls, n):

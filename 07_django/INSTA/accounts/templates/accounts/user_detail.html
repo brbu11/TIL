@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-4">
+            <img src="..." alt="{{ user_info.username }}-profile-picture">
+        </div>
+        <div class="col-8">
+            <h1>{{ user_info.username }}</h1>
+            <div>
+{#                 TODO: follow button, posts count, follower count,  self-pr #}
+            </div>
+        </div>
+
+    </div>
+    <div class="card-columns">
+            {% for post in user_info.post_set.all %}
+                {% include 'posts/_post.html' %}
+            {% endfor %}
+    </div>
+{% endblock %}
