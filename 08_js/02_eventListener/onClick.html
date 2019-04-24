@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul id="my">
+
+    </ul>
+    <button id="this-button">Click me</button>
+    <script>
+        //왜 스크립트 태그는 맨밑에?
+        /*
+            [무엇] [언제] [어떻게]
+            버튼을 클릭하면 뿅
+         */
+        const button = document.querySelector('#this-button');
+        button.addEventListener('click', e => {
+            const area = document.querySelector('#my');
+            area.innerHTML += '<li>뿅</li>';
+        })
+    </script>
+</body>
+</html>

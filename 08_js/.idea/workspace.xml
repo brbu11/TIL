@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e5e554-4ff4-49d3-a799-a3214db7a906" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../07_django/INSTA/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../07_django/INSTA/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_django/INSTA/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../07_django/INSTA/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_django/INSTA/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../07_django/INSTA/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_django/INSTA/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_django/INSTA/insta/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../07_django/INSTA/insta/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_django/INSTA/insta/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../07_django/INSTA/insta/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_django/INSTA/insta/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../07_django/INSTA/insta/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_django/INSTA/posts/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_django/INSTA/posts/migrations/0002_comment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_django/INSTA/posts/migrations/0003_post_like_users.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_django/INSTA/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../07_django/INSTA/posts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_django/INSTA/posts/templates/posts/_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/../07_django/INSTA/posts/templates/posts/_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_django/INSTA/posts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../07_django/INSTA/posts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_django/INSTA/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../07_django/INSTA/posts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,91 +16,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_basic/00_setup.html">
+        <entry file="file://$PROJECT_DIR$/02_eventListener/GiphySearchEngine/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="203">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_eventListener/GiphySearchEngine/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="770">
+              <caret line="53" column="42" lean-forward="true" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02_eventListener/workshop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
               <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_basic/05_var.html">
+        <entry file="file://$PROJECT_DIR$/02_eventListener/GiphySearchEngine/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_basic/10_condition.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_basic/object.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_basic/function.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_basic/workshop.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01_basic/04_select.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_basic/03_docummentPrint.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_basic/02_comment.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_basic/01_browserEvent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="312">
+              <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -123,6 +59,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -136,7 +74,6 @@
         <option value="$PROJECT_DIR$/01_basic/01_browserEvent.html" />
         <option value="$PROJECT_DIR$/01_basic/02_comment.html" />
         <option value="$PROJECT_DIR$/01_basic/03_docummentPrint.html" />
-        <option value="$PROJECT_DIR$/01_basic/04_select.html" />
         <option value="$PROJECT_DIR$/01_basic/05_var.html" />
         <option value="$PROJECT_DIR$/01_basic/06_const.html" />
         <option value="$PROJECT_DIR$/01_basic/08_logging.html" />
@@ -149,14 +86,22 @@
         <option value="$PROJECT_DIR$/01_basic/object.js" />
         <option value="$PROJECT_DIR$/01_basic/function.js" />
         <option value="$PROJECT_DIR$/01_basic/workshop.js" />
+        <option value="$PROJECT_DIR$/01_basic/04_select.html" />
+        <option value="$PROJECT_DIR$/02_eventListener/on_click.html" />
+        <option value="$PROJECT_DIR$/02_eventListener/onClick.html" />
+        <option value="$PROJECT_DIR$/02_eventListener/googleDino.html" />
+        <option value="$PROJECT_DIR$/02_eventListener/GiphySearchEngine/main.css" />
+        <option value="$PROJECT_DIR$/02_eventListener/GiphySearchEngine/index.html" />
+        <option value="$PROJECT_DIR$/02_eventListener/GiphySearchEngine/main.js" />
+        <option value="$PROJECT_DIR$/02_eventListener/workshop.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="606" />
-    <option name="y" value="118" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-73" />
+    <option name="y" value="46" />
     <option name="width" value="1940" />
-    <option name="height" value="1051" />
+    <option name="height" value="959" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -176,11 +121,13 @@
             <path>
               <item name="08_js" type="b2602c69:ProjectViewProjectNode" />
               <item name="08_js" type="462c0819:PsiDirectoryNode" />
-              <item name="01_basic" type="462c0819:PsiDirectoryNode" />
+              <item name="02_eventListener" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="08_js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="08_js" type="462c0819:PsiDirectoryNode" />
+              <item name="02_eventListener" type="462c0819:PsiDirectoryNode" />
+              <item name="GiphySearchEngine" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,11 +138,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/01_basic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -217,29 +169,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.00_setup.html">
-    <configuration name="00_setup.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/08_js/01_basic/00_setup.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.workshop.html">
+    <configuration name="googleDino.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/08_js/02_eventListener/googleDino.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="06_const.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/08_js/01_basic/06_const.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/08_js/02_eventListener/GiphySearchEngine/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="08_logging.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/08_js/01_basic/08_logging.html" useBuiltInWebServerPort="true">
+    <configuration name="onClick.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/08_js/02_eventListener/onClick.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="09_userInput.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/08_js/01_basic/09_userInput.html" useBuiltInWebServerPort="true">
+    <configuration name="workshop.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/08_js/02_eventListener/workshop.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="10_condition.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/08_js/01_basic/10_condition.html" useBuiltInWebServerPort="true">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/02_eventListener/GiphySearchEngine">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.00_setup.html" />
-        <item itemvalue="JavaScript Debug.10_condition.html" />
-        <item itemvalue="JavaScript Debug.09_userInput.html" />
-        <item itemvalue="JavaScript Debug.08_logging.html" />
-        <item itemvalue="JavaScript Debug.06_const.html" />
+        <item itemvalue="JavaScript Debug.workshop.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="JavaScript Debug.googleDino.html" />
+        <item itemvalue="JavaScript Debug.onClick.html" />
       </list>
     </recent_temporary>
   </component>
@@ -254,12 +206,14 @@
       <option name="presentableId" value="Default" />
       <updated>1555980230309</updated>
       <workItem from="1555980231499" duration="5745000" />
-      <workItem from="1555993835504" duration="8061000" />
+      <workItem from="1555993835504" duration="8555000" />
+      <workItem from="1556067065220" duration="110000" />
+      <workItem from="1556071532316" duration="12568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13806000" />
+    <option name="totallyTimeSpent" value="26978000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -271,21 +225,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="769" y="17" width="1940" height="1051" extended-state="0" />
+    <frame x="-73" y="46" width="1940" height="959" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" order="0" sideWeight="0.5008183" side_tool="true" visible="true" weight="0.10053191" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49918166" visible="true" weight="0.10053191" />
+      <window_info id="Favorites" order="0" sideWeight="0.5008183" side_tool="true" weight="0.10053191" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49918166" visible="true" weight="0.123554155" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33369684" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3279099" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3293348" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.3293348" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32916147" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -321,6 +275,20 @@
                 </list>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -379,24 +347,52 @@
     <entry file="file://$PROJECT_DIR$/01_basic/arrLoop.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_basic/object.js">
+    <entry file="file://$PROJECT_DIR$/01_basic/00_setup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="540">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_basic/function.js">
+    <entry file="file://$PROJECT_DIR$/01_basic/05_var.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="432">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_basic/10_condition.html">
+    <entry file="file://$PROJECT_DIR$/01_basic/03_docummentPrint.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="459">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_basic/02_comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_basic/01_browserEvent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_eventListener/onClick.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_basic/04_select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -407,45 +403,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_basic/03_docummentPrint.html">
+    <entry file="file://$PROJECT_DIR$/01_basic/function.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="477">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_basic/02_comment.html">
+    <entry file="file://$PROJECT_DIR$/01_basic/object.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="270">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_basic/01_browserEvent.html">
+    <entry file="file://$PROJECT_DIR$/01_basic/10_condition.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="477">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_basic/00_setup.html">
+    <entry file="file://$PROJECT_DIR$/02_eventListener/googleDino.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="-513">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_eventListener/GiphySearchEngine/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_eventListener/GiphySearchEngine/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_eventListener/GiphySearchEngine/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="53" column="42" lean-forward="true" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_eventListener/workshop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
           <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_basic/05_var.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_basic/04_select.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
